@@ -1,0 +1,142 @@
+body {
+  margin:0;
+  color:black;
+  font-size:18px;
+  line-height:1.4;
+  font-family:Helvetica;
+}
+
+/*Header Section*/
+.main-banner{
+  background-image: url('../images/glasses-bg.png');
+  height:30rem;
+  background-position: center;
+  background-size:cover;
+  width:100%;
+  padding-top:1rem;
+}
+
+.container{
+  width:960px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: cadetblue;
+  color:white;
+  display:flex;
+  justify-content: space-between;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
+header img{
+  height:1.5rem;
+  margin-left:2rem;
+  margin-right:1rem;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+}
+
+nav span{
+  margin-right:2rem;
+}
+
+
+.slogan p{
+  font-weight: bold;
+  font-size:2rem;
+  line-height:1.2;
+}
+
+.head-text{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.slogan{
+  background-color:white;
+  display:inline-block;
+  padding: 1.5rem 5rem;
+  position:relative;
+  top:10rem;
+  left:2rem;
+}
+
+/*Features*/
+
+#paper img{
+  width:3.5rem;
+}
+
+#ruler img,
+#truck img{
+  width:5rem;
+}
+
+
+.content {
+  display:flex;
+  justify-content: center;
+}
+
+.features{
+
+  margin:3rem;
+  width: 5rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  text-align:center;
+  height:8rem;
+}
+
+p{
+  margin:0;
+}
+
+/*Detail*/
+
+.statement div{
+  width:10rem;
+  font-weight:bold;
+  font-size:1rem;
+  color:white;
+  background-color: cadetblue;
+  padding-left: 1.25rem;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  margin-bottom: 1rem;
+}
+
+.statement {
+  width:35%;
+  margin-left:2.5%;
+  margin-right:2.5%;
+}
+
+.detail{
+  display:flex;
+  justify-content: center;
+}
+
+/*Footer*/
+
+.footer{
+  background-color: azure;
+  margin-top:5rem;
+  padding:4rem;
+}
+
+.footer img{
+  height:1.5rem;
+  margin-right:1rem;
+}
+.copyright{
+  display:flex;
+  align-items:center;
+}
